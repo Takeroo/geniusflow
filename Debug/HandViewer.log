@@ -1,0 +1,36 @@
+﻿Build started 05/02/2016 18:03:12.
+     1>Project "C:\Program Files (x86)\PrimeSense\NiTE2\Samples\GeniusFlow\HandViewer.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\OpenNI2\Include\\" /I. /I"C:\Program Files (x86)\PrimeSense\NiTE2\Include\\" /I. /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp Viewer.cpp
+     1>cl : командная строка warning D9030: "/Gm" несовместим с многопроцессорной обработкой; ключ /MP игнорируется
+         Viewer.cpp
+     1>c:\program files (x86)\primesense\nite2\samples\geniusflow\viewer.cpp(78): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188): см. объявление "strncpy"
+     1>c:\program files (x86)\primesense\nite2\samples\geniusflow\viewer.cpp(421): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371): см. объявление "sprintf"
+         main.cpp
+         Создание кода...
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Program Files (x86)\PrimeSense\NiTE2\Samples\GeniusFlow\Debug\HandViewer.exe" /NOLOGO /LIBPATH:"C:\Program Files (x86)\PrimeSense\NiTE2\Samples\GeniusFlow\Debug\\" /LIBPATH:"C:\Program Files (x86)\PrimeSense\NiTE2\Lib\\" /LIBPATH:"C:\Program Files (x86)\OpenNI2\Lib\\" /LIBPATH:..\..\..\Libs opengl32.lib glut32.lib NiTE2.lib OpenNI2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\HandViewer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Program Files (x86)\PrimeSense\NiTE2\Samples\GeniusFlow\Debug\HandViewer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Program Files (x86)\PrimeSense\NiTE2\Samples\GeniusFlow\Debug\HandViewer.lib" /MACHINE:X86 Debug\main.obj
+         Debug\Viewer.obj
+         HandViewer.vcxproj -> C:\Program Files (x86)\PrimeSense\NiTE2\Samples\GeniusFlow\Debug\HandViewer.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Program Files (x86)\PrimeSense\NiTE2\Samples\GeniusFlow\Debug\HandViewer.exe;#1" /manifest Debug\HandViewer.exe.intermediate.manifest
+       PostBuildEvent:
+         xcopy /D /S /F /Y "C:\Program Files (x86)\OpenNI2\Redist\\*" "C:\Program Files (x86)\PrimeSense\NiTE2\Samples\GeniusFlow\Debug\"
+         xcopy /D /S /F /Y "C:\Program Files (x86)\PrimeSense\NiTE2\Redist\\*" "C:\Program Files (x86)\PrimeSense\NiTE2\Samples\GeniusFlow\Debug\"
+         xcopy /D /F /Y "C:\Program Files (x86)\PrimeSense\NiTE2\Samples\GeniusFlow\\glut32.dll" "C:\Program Files (x86)\PrimeSense\NiTE2\Samples\GeniusFlow\Debug\"
+         
+         :VCEnd
+         C:\Program Files (x86)\OpenNI2\Redist\OpenNI2.jni.pdb -> C:\Program Files (x86)\PrimeSense\NiTE2\Samples\GeniusFlow\Debug\OpenNI2.jni.pdb
+         C:\Program Files (x86)\OpenNI2\Redist\OpenNI2.pdb -> C:\Program Files (x86)\PrimeSense\NiTE2\Samples\GeniusFlow\Debug\OpenNI2.pdb
+         2 File(s) copied
+         C:\Program Files (x86)\PrimeSense\NiTE2\Redist\NiTE2.jni.pdb -> C:\Program Files (x86)\PrimeSense\NiTE2\Samples\GeniusFlow\Debug\NiTE2.jni.pdb
+         C:\Program Files (x86)\PrimeSense\NiTE2\Redist\NiTE2.pdb -> C:\Program Files (x86)\PrimeSense\NiTE2\Samples\GeniusFlow\Debug\NiTE2.pdb
+         2 File(s) copied
+         0 File(s) copied
+     1>Done Building Project "C:\Program Files (x86)\PrimeSense\NiTE2\Samples\GeniusFlow\HandViewer.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.99
